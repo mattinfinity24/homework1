@@ -1,7 +1,102 @@
+<!DOCTYPE html>
 <html>
-        <head>
-            <title> Homework 1</title>
-        </head>
-        <body> This is this homework 1. 
-        </body>
+        <title>
+            Homework 1
+        </title>
+        <h1><center><b><font size = "6">Duch, Matthew</b></font></center>
+            <style>
+                p.inset {
+                    border-style: inset;
+                    border-color: #009900;
+                    }
+                </style>
+            <p class="inset"></p>
+        </h1>
+        <h2><center><i>Welcome to IS445 Homework 1!</i></center></h2>
+            <b><center><img src="duch.jpg" style="width:350px;height:400px;"></center></b>
+        </h2>
+
+    <body>
+
+    <!-- CSS section -->
+
+    <style type = "text/css">
+    
+     #wrapper {
+        width: 732px;
+        height: 1200px;
+        margin: 0 auto;
+        }
+
+    .box {
+        width: 340px;
+        height: 500px;
+        border: 3px solid #a82407;
+    }
+
+    #left {
+        float: left;
+        padding: 10px;
+    }
+
+    #right {
+        float: right;
+        padding: 10px;
+    }
+
+    </style>
+
+    <!-- End of CSS section-->
+
+    </body>
+
+<div id="wrapper"> 
+            <div id = "left" class="box">
+                <p><font size = 5><center>About Me</center></font></p>
+                <p><i><u><b>Education</u></i></b></p>
+                <ul>
+                    <li>Bachelor of Science in Management Information Systems, CSULB, 2019 </li>
+                    <p></p>
+                    <li>Associate of Science in Business Administration, Pasadena City College, 2017 </li>
+                </ul>
+                <p><i><u><b>Skills</u></i></b></p>
+                <ol>
+                    <li>Coursework: Python, HTML, CSS, JavaScript</li>
+                    <p></p>
+                    <li>3+ Years in Helpdesk Role (Employed at Pacific Theatres & Snapchat) </li>
+                    <p></p>
+                    <li>1 Year in Systems Administrator Role (Currently employed at Raytheon/JPL) </li>
+                </ol>
+                <p><i><u><b>Expectation for this course</u></i></b></p>
+                <p>While I do already have some exposure to HTML, CSS, and JavaScript, I hope to become decent at the languages at the end of this course.</p>
+                </div>
+
+            <div id = "right" class="box">
+            <p><font size = 5><center>Contact Me</center></font></p>
+                <p></p>
+                <form action="/action_page.php"> <!-- Not sure if I'm actually suppose to create this file? I can, but I don't know if you just wanted the layout or a working program. -->
+                    Name:<br>
+                    <input type="text" name="firstname" 
+                    p></p>
+                    <br>
+                    Email:<br>
+                    <input type="text" name="email"
+                    p></p>
+                    <br>
+                    Message:<br>
+                    <textarea id="msg" name="user_message" rows = "10" columns = "30"></textarea>
+                    <p></p>
+                    <p></p>
+                    <center><input type="submit" value="Send your message"></center>
+                
+                </form> 
+        
+            </div>
+        </div>
+   
+
+
+    </body>
+
+    
 </html>
